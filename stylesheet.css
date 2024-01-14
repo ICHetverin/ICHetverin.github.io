@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    position: fixed;
+    z-index: 0;
+}
+
+@font-face {
+    font-family: 'Grecha';
+    src: url(./fonts/grecha.ttf);
+}
+
+canvas {
+    position: relative;
+}
+
+.text {
+    font-family: 'Grecha';
+    position: absolute;
+    color: white;
+    z-index: 1;
+    top: 0;
+    font-size: 55px;
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    font: optional;
+    white-space: pre-line;
+}
+
+.text1 {
+    position: absolute;
+    color: white;
+    z-index: 1;
+    top: 0;
+    font-size: 30px;
+    overflow: scroll;
+
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.btn-text {
+    font-family: 'Grecha';
+    position: absolute;
+    color: #C0C0C0;
+    top:0 ;
+    font-size: 95px;
+    z-index: 10;
+}
+
+.btn-text1 {
+    font-family: 'Grecha';
+    position: absolute;
+    color: whitesmoke;
+    top:0 ;
+    font-size: 150px;
+    z-index: 10;
+
+}
+
+.text::-webkit-scrollbar {
+    display: none;
+}
+
+audio {
+    display: none;
+}
+
